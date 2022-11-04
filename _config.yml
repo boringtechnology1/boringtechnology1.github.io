@@ -30,6 +30,10 @@ github_username:  boringtechnology1
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
 
