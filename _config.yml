@@ -21,7 +21,7 @@
 title: Boring Technology
 email: boringtechnology1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Boring Technology blog. You can find all about not so fancy and more commercial technologies here.
+  Welcome to Boring Technology blog. You can find all about not so fancy and more commercial (boring) technologies here.
 domain: "boringtechnology1.github.io"
 url: "https://boringtechnology1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
