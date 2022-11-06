@@ -20,6 +20,11 @@ There are a lot of examples of Kibana dashboard implementation on websites via i
 - WSL2 (if you are using Windows, for Nginx and Docker)
 - Docker (if you want to run Kibana locally)
 
+## The plan
+
+This is architecture plan that we will set up:
+
+![Kibana Spring Boot Angular architecture]({{ site.url }}/assets/img1-7.png)
 
 ## Setup
 So first let’s install and run the Kibana container. Don’t forget to run elastic with the following env flag `-e "discovery.type=single-node"` for local testing; otherwise, you will run into errors. Kibana depends on elastic so after starting it you will see this output with an elastic user password and enrollment token which you will need to start Kibana. Also, you can see the Kibana version here which we will need later.
