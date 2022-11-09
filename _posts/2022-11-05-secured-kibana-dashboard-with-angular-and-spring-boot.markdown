@@ -26,6 +26,8 @@ This is architecture plan that we will set up:
 
 ![Kibana Spring Boot Angular architecture]({{ site.url }}/assets/img1-7.png)
 
+You can find project [Git repo here](https://github.com/boringtechnology1/kibana-angular-spring-boot)
+
 ## Setup
 So first let’s install and run the Kibana container. Don’t forget to run elastic with the following env flag `-e "discovery.type=single-node"` for local testing; otherwise, you will run into errors. Kibana depends on elastic so after starting it you will see this output with an elastic user password and enrollment token which you will need to start Kibana. Also, you can see the Kibana version here which we will need later.
 
